@@ -1,0 +1,231 @@
+%-------------------------
+% Modern Professional Resume
+% Author: Yash Verma
+% Updated: May 2026
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\usepackage[default]{lato}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\large\bfseries
+}{}{0em}{}[\vspace{-2pt}\titlerule\vspace{-4pt}]
+\titlespacing*{\section}{0pt}{14pt}{10pt}
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \textbf{#1}\hfill \textbf{\small #2} \\
+    \textit{\small #3}\hfill \textit{\small #4}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \textit{\small #1}\hfill \textit{\small #2}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \small #1\hfill \textbf{\small #2}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{\textbullet}
+\renewcommand\labelitemii{\textbullet}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+  {\Huge Yash Verma} \\
+  \small Software Engineer \textbar{} Java/J2EE, Spring Boot, React \textbar{} Full-Stack, Microservices, AWS \\
+  \href{https://yashverma230600.github.io/yashV-portfolio/}{Portfolio: yashverma230600.github.io/yashV-portfolio/} \\
+  \vspace{8pt}
+  \small
+  Gurgaon, India \textbar{}
+  +91-9520616333 \textbar{}
+  \href{mailto:verma.yash23.yv@gmail.com}{verma.yash23.yv@gmail.com} \textbar{}
+  \href{https://www.linkedin.com/in/yash-verma-9243a7193/}{linkedin.com/in/yash-verma-9243a7193} \textbar{}
+  \href{https://github.com/yashverma230600}{github.com/yashverma230600} \textbar{}
+  \href{https://leetcode.com/yashverma230600}{leetcode.com/yashverma230600}
+  \vspace{-8pt}
+\end{center}
+
+%----------SUMMARY----------
+\section{Summary}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    Software Engineer with nearly 4 years building Java/\textbf{Spring Boot} services and React/React Native apps at Bharti Airtel for platforms serving \textbf{8.5M+} daily users. Owns design through production support for REST APIs and microservices; delivered \textbf{99.97\%} API success with secure OAuth2/JWT/RBAC and CI/CD. Uses GitHub Copilot for code and test creation (approximately \textbf{25--30\%} faster); validates outputs through code review and automated tests. % VERIFY: Confirm Copilot-generated output was consistently validated through peer review and automated tests.
+    Built a LangChain/Azure OpenAI GPT-4o RAG assistant for \textbf{2,000+} field engineers; mentored \textbf{3 engineers}. Interested in a financial services technology team.
+  }}
+\end{itemize}
+\vspace{-8pt}
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages:} Java (8/11/17), JavaScript, SQL \\
+    % VERIFY: Confirm comfort describing Java experience as Java/J2EE before listing J2EE.
+    \textbf{Backend \& Frameworks:} Java/J2EE, Spring Boot, Spring MVC, Spring Security, Spring Cloud, Hibernate, JPA, RESTful APIs, Microservices \\
+    \textbf{Frontend:} React, React Native, JavaScript \\
+    % VERIFY: Confirm HTML/CSS experience before adding these skills.
+    \textbf{Security:} Spring Security, OAuth2, JWT, RBAC \\
+    % VERIFY: Confirm secure-coding experience before listing Secure Coding as a skill.
+    \textbf{Application Resiliency:} Fault Tolerance, High Availability, Retry and Failure Recovery \\
+    \textbf{CI/CD \& Cloud:} Jenkins, Docker, Kubernetes, Helm, CI/CD, AWS (EC2, S3, EKS, ECS, ECR, Lambda, CloudWatch, IAM) \\
+    \textbf{AI-Assisted Development:} GitHub Copilot, LLMs, RAG, LangChain, LangGraph, Vector Databases \\
+    \textbf{Databases:} Oracle, PostgreSQL, MySQL, MongoDB, Redis, Neo4j, ChromaDB \\
+    \textbf{Testing:} JUnit, Mockito, JMeter, VisualVM
+  }}
+\end{itemize}
+\vspace{-8pt}
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Bharti Airtel}{Gurgaon, India}
+      {Software Engineer}{November 2022 -- Present}
+
+      \vspace{4pt}
+      \vspace{4pt}
+      \textbf{\small EPC Prepaid Revenue Assurance Automation Platform} \hfill \textit{\small Java, Spring Boot, React Native, REST APIs} \\
+      \vspace{-2pt}
+      \resumeItemListStart
+        \resumeItem{Architected and led end-to-end delivery of a full-stack automation platform for Airtel's Prepaid Revenue Assurance team, replacing multi-day manual validation across prepaid billing systems}
+        \resumeItem{Built the React Native frontend (web and mobile) on Spring Boot REST APIs, letting analysts trigger jobs, monitor status in real time, and export mismatch reports; translated analyst requirements into features, replacing spreadsheet workflows.} % VERIFY: Confirm direct requirements collaboration with Revenue Assurance analysts.
+        \resumeItem{Designed an extensible Java/Spring Boot validation engine using Strategy and Factory patterns}
+        \resumeItem{Automated job scheduling, real-time status tracking, alerts, and discrepancy flagging, reducing turnaround from \textbf{5 days to under 30 minutes} and freeing \textbf{80\%+} analyst bandwidth}
+        \resumeItem{Mentored \textbf{3 engineers} through code reviews, production debugging, system design, and microservice development}
+      \resumeItemListEnd
+
+      \vspace{4pt}
+      \textbf{\small ATOM (Order Management Platform)} \hfill \textit{\small Java, Spring Boot, Kafka, Redis} \\
+      \vspace{-2pt}
+      \resumeItemListStart
+        \resumeItem{Owned high-availability broadband and postpaid microservices from design through deployment, production incident response, and troubleshooting}
+        \resumeItem{Automated CI/CD testing and deployments with \textbf{Jenkins} and \textbf{Docker}, reducing deployment errors by \textbf{60\%}}
+        \resumeItem{Designed and scaled \textbf{Spring Boot} microservices with asynchronous \textbf{Kafka} processing for high-volume order events}
+        \resumeItem{Built a \textbf{Redis} distributed cache that reduced redundant API calls by \textbf{40\%} and improved peak-load latency}
+        \resumeItem{Implemented \textbf{Drools}/\textbf{Kafka} reconciliation for \textbf{100\% Day-1} profile synchronization}
+      \resumeItemListEnd
+
+      \vspace{4pt}
+      \textbf{\small Device Nucleus (Provisioning \& Diagnostics Platform)} \hfill \textit{\small Java, Spring Boot, REST APIs} \\
+      \vspace{-2pt}
+      \resumeItemListStart
+        \resumeItem{Designed and developed REST APIs and microservices for modem provisioning and diagnostics, integrated into the Airtel Thanks App serving \textbf{8M+} users}
+        \resumeItem{Delivered APIs handling \textbf{3M+} requests/day with \textbf{99.97\%} success rate using auto-retry, failure recovery, and Grafana/Kibana dashboards}
+        \resumeItem{Reduced customer service requests by \textbf{14\%} through automated self-service troubleshooting flows}
+        \resumeItem{Documented API contracts with Swagger/OpenAPI} % VERIFY: Confirm Device Nucleus API documentation used Swagger/OpenAPI.
+      \resumeItemListEnd
+
+      \vspace{4pt}
+      \textbf{\small AI-Powered Router Diagnostics Platform} \hfill \textit{\small LangChain, Azure OpenAI (GPT-4o), RAG, Flask, React} \\
+      \vspace{-2pt}
+      \resumeItemListStart
+        \resumeItem{Built an \textbf{AI-powered router assistant} using \textbf{LangChain} agent orchestration with \textbf{Azure OpenAI GPT-4o}, enabling natural language interaction with \textbf{26+ router diagnostic tools} for \textbf{2,000+} field engineers}
+        \resumeItem{Implemented a RAG pipeline with text embeddings and a vector database to ground responses in router-specific knowledge}
+        \resumeItem{Delivered retry-enabled Flask REST APIs and a React chat frontend, achieving \textbf{92\%} query resolution, reducing MTTR by \textbf{30\%}, and cutting L1 escalations by \textbf{25\%}}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{CloudBox --- Distributed Cloud File Storage System} \textbar{} \textit{\small Java 21, Spring Boot 3, PostgreSQL, AWS S3, Redis, Kafka, Docker}}{}
+      \resumeItemListStart
+        \resumeItem{Architected a \textbf{cloud-native} distributed file storage platform using \textbf{Java 21}, \textbf{Spring Boot}, \textbf{PostgreSQL}, and \textbf{AWS S3}, persisting binary objects in S3 while storing only file metadata in PostgreSQL through a clean \textbf{layered architecture}.}
+        \resumeItem{Implemented secure \textbf{JWT}-based authentication and \textbf{role-based authorization} with \textbf{Spring Security}, exposing protected \textbf{REST APIs} for file upload, download, rename, delete, and metadata management documented with \textbf{OpenAPI/Swagger}.}
+        \resumeItem{Improved metadata access performance by integrating \textbf{Redis caching} with targeted \textbf{cache invalidation} strategies for upload, rename, and delete operations, reducing repetitive database reads for frequently accessed file metadata.}
+        \resumeItem{Designed an \textbf{event-driven} and \textbf{horizontally scalable} architecture using \textbf{Apache Kafka} for asynchronous file-upload workflows and \textbf{Nginx} load balancing for multiple stateless Spring Boot instances, improving extensibility and resilience through \textbf{decoupled background processing}.}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{Distributed Rate Limiter System (Token Bucket Based)} \textbar{} \href{https://github.com/yashverma230600/distributed-rate-limiter}{github.com/yashverma230600/distributed-rate-limiter}}{}
+      \resumeItemListStart
+        \resumeItem{Implemented Token Bucket algorithm in Java with \textbf{ReentrantLock}-based per-client locking --- proven correct under \textbf{100} simultaneous threads with zero over-allowance}
+        \resumeItem{Designed lock granularity at \textbf{per-client} level (not global) so independent clients never block each other under \textbf{concurrent load}}
+        \resumeItem{Wrote \textbf{9 JUnit 5} tests, including a concurrency test firing 100 threads simultaneously via \textbf{CountDownLatch} --- all passing}
+        \resumeItem{Designed \textbf{Redis + Lua script} extension for distributed consistency across multiple instances --- documented as next iteration}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {GLA University}{Mathura, India}
+      {Bachelor of Technology --- Computer Science and Engineering}{2019 -- 2023}
+  \resumeSubHeadingListEnd
+  \vspace{-2pt}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Relevant Coursework:} Data Structures \& Algorithms, Operating Systems, Database Management Systems, Computer Networks, Distributed Computing
+    }}
+  \end{itemize}
+\vspace{-4pt}
+
+%-----------AWARDS-----------
+\section{Awards \& Achievements}
+\begin{itemize}[leftmargin=0.15in]
+  \item \small{\textbf{Ace Award \& Rookie Award} -- Recognized for delivery of innovative AI-integrated backend solutions at Bharti Airtel (2024)}
+  \item \small{\textbf{LeetCode \textbf{200+} Problems Solved} -- Strong problem-solving record across data structures, algorithms, and system design patterns}
+  \item \small{\textbf{HackerRank 5-Star Problem Solver} -- Ranked in top \textbf{10\%} globally in Problem Solving certification}
+\end{itemize}
+
+\end{document}

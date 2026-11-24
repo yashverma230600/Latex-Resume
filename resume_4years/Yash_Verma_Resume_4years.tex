@@ -1,0 +1,120 @@
+\documentclass[10.5pt,letterpaper]{article}
+
+\usepackage[margin=0.62in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue]{hyperref}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\definecolor{navy}{HTML}{1F3864}
+\definecolor{greytxt}{HTML}{595959}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\raggedright
+
+\titleformat{\section}{\color{navy}\bfseries\normalsize}{}{0em}{}[\vspace{-5pt}{\color{navy}\rule{\linewidth}{1pt}}]
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+
+\newcommand{\role}[3]{\textbf{\large #1} \hspace{0.4em}---\hspace{0.4em} \textit{#2}\\[-1pt]{\color{greytxt}\small #3}\par\vspace{2pt}}
+\newcommand{\proj}[2]{\vspace{3pt}\textbf{#1} \hspace{0.3em}---\hspace{0.3em} \textit{#2}\par\vspace{-1pt}}
+\newenvironment{bul}{\begin{itemize}[leftmargin=2.2em,itemsep=1pt,topsep=1pt,parsep=0pt,label=\textbullet]}{\end{itemize}}
+\newcommand{\skill}[2]{\textbf{#1:} #2\par}
+
+\begin{document}
+
+{\color{navy}\bfseries\fontsize{22}{24}\selectfont Yash Verma}\par\vspace{3pt}
+{\color{greytxt}\large Software Engineer | Java, Spring Boot, Node.js, Distributed Systems \& Microservices}\par\vspace{2pt}
+{\color{greytxt}\small Gurgaon, India | +91-9520616333 | verma.yash23.yv@gmail.com | \href{https://www.linkedin.com/in/yash-verma-9243a7193/}{linkedin.com/in/yash-verma-9243a7193} | \href{https://github.com/yashverma230600}{github.com/yashverma230600} | \href{https://leetcode.com/yashverma230600}{leetcode.com/yashverma230600} | \href{https://yashverma230600.github.io/yash-portfolio/}{Portfolio}}\par
+\vspace{2pt}{\color{greytxt}\rule{\linewidth}{0.6pt}}
+
+\section{PROFESSIONAL SUMMARY}
+Software Engineer with 4 years of experience building high-availability, low-latency Java and Spring Boot microservices at Bharti Airtel, serving platforms with 8.5M+ daily active users. Delivered measurable outcomes including a 96\% reduction in validation turnaround, 60\% fewer deployment errors, and 99.97\% API success rates across distributed, fault-tolerant, event-driven architectures using Kafka, Redis, AWS, and Kubernetes. Experienced in REST API design, microservices architecture, system design, OAuth2/JWT security, CI/CD automation, and mentoring engineers. Seeking to bring production-grade distributed systems experience to large-scale engineering challenges at a product-first organization or financial services technology team.
+
+\section{SKILLS}
+\skill{Languages}{Java (8/11/17), SQL, JavaScript, TypeScript}
+\skill{Backend \& Frameworks}{Spring Boot, Spring MVC, Spring Security, Spring Cloud, Hibernate, Node.js, Express.js, JPA, Spring Batch, RESTful APIs, Microservices}
+\skill{Backend \& Frameworks}{React, React Native, Next.js}
+\skill{Architecture}{Distributed Systems, System Design, High Availability, Fault Tolerance, Scalability, Concurrency, Multithreading, Low-Latency Design, Event-Driven Architecture, Caching, Design Patterns}
+\skill{Messaging \& Streaming}{Apache Kafka, RabbitMQ, Solace}
+\skill{Security}{Spring Security, OAuth2, JWT, RBAC}
+\skill{Cloud \& DevOps}{AWS (EC2, S3, EKS, ECS, ECR, Lambda, CloudWatch, IAM), Docker, Kubernetes, Helm, Jenkins, CI/CD, Linux}
+\skill{Databases}{Oracle, PostgreSQL, MySQL, MongoDB, Redis, Neo4j, ChromaDB}
+{\itshape\small\color{greytxt} Neo4j graph DB --- used to model billing dependency relationships for cross-system validation (EPC Sync Validator).}\par
+\skill{Observability}{Grafana, Kibana, Distributed Tracing}
+\skill{AI/ML}{LLMs, RAG Pipelines, LangChain, LangGraph, Vector Databases}
+\skill{Testing}{JUnit, Mockito, JMeter, VisualVM}
+\skill{Tools}{Git, Maven, Agile/Scrum, Postman, Swagger, IntelliJ IDEA, GitHub Copilot}
+\skill{Core CS}{Data Structures \& Algorithms, Design Patterns, SDLC}
+
+\section{WORK EXPERIENCE}
+\role{Software Engineer}{Bharti Airtel, Gurgaon, India}{November 2022 -- Present}
+
+\proj{AI-Powered Router Diagnostics Platform}{LangChain, Azure OpenAI (GPT-4o), RAG, Java, Spring Boot}
+\begin{bul}
+\item Built an AI-powered router assistant using LangChain agent orchestration with Azure OpenAI GPT-4o, enabling natural language interaction with 26+ router diagnostic tools for 2,000+ field engineers
+\item Implemented a RAG (Retrieval-Augmented Generation) pipeline with text embeddings and a vector database to ground LLM responses in router-specific knowledge, improving diagnostic accuracy and reducing hallucinations
+\item Designed fault-tolerant API orchestration with retry logic, achieving 92\% query resolution accuracy and reducing Mean Time to Resolution (MTTR) by 30\%
+\item Cut L1 support escalations by 25\% through automated AI-driven diagnostic workflows exposed via a Flask REST API with a React chat frontend
+\end{bul}
+
+\proj{ATOM (Order Management Platform)}{Java, Spring Boot, Kafka, Redis}
+\begin{bul}
+\item Owned end-to-end lifecycle of high-availability backend microservices for broadband and postpaid order workflows, from design through deployment and production incident response
+\item Architected a Redis-based distributed caching layer, reducing redundant API calls by 40\% and improving service latency under peak load; accelerated delivery with GitHub Copilot, cutting implementation time by \textasciitilde30\%
+\item Designed and scaled Spring Boot microservices with Kafka-based asynchronous processing, improving system throughput and fault tolerance for high-volume order events
+\item Automated deployments and integrated testing into CI/CD pipelines via Jenkins and Docker, reducing deployment errors by 60\% and improving release stability
+\item Designed event-driven reconciliation workflows using Drools Engine and Kafka-based messaging, ensuring 100\% Day-1 profile synchronization across distributed nodes
+\end{bul}
+
+\proj{EPC Prepaid Revenue Assurance Automation Platform}{Java, Spring Boot, React Native, REST APIs}
+\begin{bul}
+\item Mentored and guided 3 engineers through system design discussions, code reviews, production debugging, and microservice development, improving engineering quality, delivery velocity, and adherence to backend best practices
+\item Architected and led end-to-end delivery of a full-stack automation platform for Airtel's Prepaid Revenue Assurance team, eliminating a multi-day manual validation process across multiple prepaid billing systems
+\item Designed and developed a rule-based validation engine using Strategy and Factory design patterns in Java Spring Boot, enabling extensible validation workflows; leveraged GitHub Copilot to scaffold pattern classes and test cases, cutting boilerplate effort by \textasciitilde25\%
+\item Designed a job scheduling and real-time status-tracking layer with automated alerting and discrepancy flagging, reducing validation turnaround from 5 days to under 30 minutes and freeing analyst bandwidth by 80\%+
+\item Delivered a React Native frontend enabling Revenue Assurance analysts to trigger, monitor, and export structured mismatch reports from web and mobile, removing dependency on spreadsheet-based workflows
+\end{bul}
+
+\proj{Device Nucleus (Provisioning \& Diagnostics Platform)}{Java, Spring Boot, REST APIs}
+\begin{bul}
+\item Designed and developed REST APIs and microservices for modem provisioning and diagnostics, integrated into the Airtel Thanks App serving 8M+ users
+\item Delivered APIs handling 3M+ requests/day with 99.97\% success rate using auto-retry, failure recovery, and observability via Grafana and Kibana dashboards
+\item Reduced customer service requests by 14\% through automated self-service troubleshooting flows
+\end{bul}
+
+\section{PROJECTS}
+\proj{CloudBox --- Distributed Cloud File Storage System}{Java 21, Spring Boot 3, PostgreSQL, AWS S3, Redis, Kafka, Docker}
+\begin{bul}
+\item Architected a cloud-native distributed file storage platform using Java 21, Spring Boot, PostgreSQL, and AWS S3, persisting binary objects in S3 while storing only file metadata in PostgreSQL through a clean layered architecture
+\item Implemented secure JWT-based authentication and role-based authorization with Spring Security, exposing protected REST APIs for file upload, download, rename, delete, and metadata management, documented with OpenAPI/Swagger
+\item Improved metadata access performance by integrating Redis caching with targeted cache invalidation strategies, reducing repetitive database reads for frequently accessed file metadata
+\item Designed an event-driven, horizontally scalable architecture using Apache Kafka for asynchronous file-upload workflows and Nginx load balancing across multiple stateless Spring Boot instances
+\end{bul}
+
+\proj{Distributed Rate Limiter System (Token Bucket Based)}{\href{https://github.com/yashverma230600/distributed-rate-limiter}{github.com/yashverma230600/distributed-rate-limiter}}
+\begin{bul}
+\item Implemented the Token Bucket algorithm in Java with ReentrantLock-based per-client locking, proven correct under 100 simultaneous threads with zero over-allowance
+\item Designed lock granularity at the per-client level (not global) so independent clients never block each other under concurrent load
+\item Wrote 9 JUnit 5 tests, including a concurrency test firing 100 threads simultaneously via CountDownLatch, all passing
+\item Designed a Redis + Lua script extension for distributed consistency across multiple instances, documented as the next iteration
+\end{bul}
+
+\section{EDUCATION}
+\textbf{Bachelor of Technology, Computer Science and Engineering} \hspace{0.3em}---\hspace{0.3em} GLA University, Mathura, India\\[-1pt]
+{\color{greytxt}\small 2019 -- 2023}\par\vspace{1pt}
+Relevant Coursework: Data Structures \& Algorithms, Operating Systems, Database Management Systems, Computer Networks, Distributed Computing
+
+\section{AWARDS \& ACHIEVEMENTS}
+\begin{bul}
+\item Ace Award \& Rookie Award --- recognized for delivery of innovative AI-integrated backend solutions at Bharti Airtel (2024)
+\item LeetCode: 200+ problems solved across data structures, algorithms, and system design patterns
+\item HackerRank 5-Star Problem Solver --- ranked in top 10\% globally in Problem Solving certification
+\end{bul}
+
+\end{document}

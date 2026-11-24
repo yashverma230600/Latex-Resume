@@ -1,0 +1,52 @@
+            Yash Verma
+verma.yash23.yv@gmail.com | 9520616333 | LinkedIn |  Leetcode 
+
+WORK EXPERIENCE
+
+SOFTWARE ENGINEER | Bharti Airtel (Airtel X Labs),  Pune	November 2022 - Present
+   India's leading telecom provider offering Prepaid, Postpaid, Broadband, DTH, Payment Banks & Business solutions
+
+	•	Built and deployed scalable microservices using Java (Spring Boot) for Airtel Thanks App features like (AirFiber details, LAN speed checks, and credential resets) supporting 8.5 million+ daily user requests with 99.9% uptime.
+	•	Led the integration of AI-driven router diagnostics (RouterAiApiSolution) using Streamlit and LangChain, enabling real-time interaction with router data and reducing dependency on customer support.
+	•	Engineered telephony flow services using SIP protocol and WebRTC, enhancing voice service reliability and integration.
+	•	Designed REST APIs for various SelfCare Applications (e.g., QuotaTrigger, OneAirtel), enabling automated messaging for data usage alerts and outstanding bill reminders, improving customer engagement for postpaid and Airtel Black users.
+	•	Collaborated across cross-functional teams (Postpaid, Telemedia) to maintain high availability and performance of critical services.
+	•	Designed and implemented various REST API for SelfCare Applications in Java using SpringBoot Trainee | GLA University-JOVAC 	June 2021- August 2022
+	•	Job Oriented Value added course
+	•	Learning about Data Science & Machine Learning
+
+SKILLS
+	•	Programming Languages: Java, C, C++
+	•	Frontend: HTML, StreamLit, JavaScript, React
+	•	IT Constructs: Data Structures & Algorithms (DSA), OOPs, SQL, OS
+	•	Development tools: Docker, GitHub
+	•	Frameworks/ Tools: Spring Boot, API's, JSON, LLD
+
+    PROJECTS
+    EPC Sync Validator – LangGraph, ChromaDB, Neo4j, StreamLit
+	•	Built an AI powered validation tool to automate Airtel’s plan verification across four independent system, replacing the revenue assurance team’s manual process of hundreds of checks.
+	•	Used LangGraph for workflow orchestration, neo4J for relationship mapping and chromaDB for semantic data retrieval to ensure accurate and consistent validation results.
+	•	Reduced validation time from 4 to 5 days to under two hours, cutting operational cost and free up RA team capacity for higher-value tasks, saving Airtel significant manpower hours and accelerating time-to-market for new plans.
+   Router AI ApiSolution – A Streamlit + Langchain web app to assist users retrieving router details via AI agent.
+	•	Developed an internal AI-powered web application for Airtel to retrieve router details and SSID lists on demand of user, replacing manual lookup processes.
+	•	Integrated LangChain with existing router APIs to enable natural language queries, reducing dependency on customer support for diagnostics.
+	•	Reduced average support ticket resolution time for router reduced by 30%; planned integration with WhatsApp for real-time self-service.
+    Crime Reporting Application
+	•	Implemented a web application which can solve real-world problems of people by reporting various crimes and can track the status of their report.
+	•	Technologies used are Java, SpringBoot, Hibernate, MySQL and BootStrap
+
+
+EDUCATION
+Btech. Computer Science | GLA University 
+2019-2023
+12th , CBSE | AVMD Senior Secondary School 
+2018-2019
+10th, CBSE | ST. Peter’s College 
+2016-2017
+
+AWARDS & ACHIEVEMENTS
+
+	•	Received the Ace Award and Rookie Award for out of the box efforts in application development Attained Hackerrank Five Star Coder badge for problem solving
+	•	Solved 200+ Problems Solved on Leetcode
+	•	Received Organizational Leadership certificates for organizing intra-college seminars and workshops.
+
